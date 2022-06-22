@@ -1,9 +1,15 @@
 
 
 html {
+  background-color: rgb(43, 43, 43);
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.container {
+  margin: 50px;
+  height:75vh;
 }
 
 .row {
@@ -11,9 +17,11 @@ html {
   flex-direction: row;
   flex-basis: 50px;
   flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .grid-block {
   flex-basis: 50px;
   flex-grow: 1;
+  flex-shrink: 1;
 }
