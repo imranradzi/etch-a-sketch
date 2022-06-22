@@ -4,10 +4,8 @@ const body = document.querySelector('body');
 
 const container = document.createElement('div');
 container.setAttribute('class', 'container');
-container.textContent = 'this will contain our square grids';
 
 body.appendChild(container);
-container.setAttribute('style', 'display: flex; flex-direction: column; width: 960px');
 
 // create 16 rows and 16 columns using nested for loops
 

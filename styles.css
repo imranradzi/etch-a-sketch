@@ -7,21 +7,31 @@ html {
   justify-content: center;
 }
 
+h1 {
+  color: white;
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
 .container {
   margin: 50px;
   height:75vh;
+  width:75vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .row {
   display: flex;
   flex-direction: row;
-  flex-basis: 50px;
+  flex-basis: 10px;
   flex-grow: 1;
   flex-shrink: 1;
 }
 
 .grid-block {
-  flex-basis: 50px;
+  flex-basis: 10px;
   flex-grow: 1;
   flex-shrink: 1;
 }
